@@ -4,16 +4,11 @@ A collection of JavaScript mini projects built while improving my frontend devel
 
 ## ✨ Projects
 
-- Calculator
-- Todo App
-- Digital Clock
-- Stopwatch
-- Password Generator
-- Quiz App
-- Weather App
-- Expense Tracker
-- Image Search App
-- Notes App
+### Beginner
+- Counter App
+
+### Intermediate
+
 
 ## 🛠️ Tech Used
 
