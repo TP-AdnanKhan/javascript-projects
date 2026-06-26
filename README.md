@@ -6,6 +6,8 @@ A collection of JavaScript mini projects built while improving my frontend devel
 
 ### Beginner
 - Counter App
+- Digital Clock
+- Stopwatch
 
 ### Intermediate
 
