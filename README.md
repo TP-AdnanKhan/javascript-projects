@@ -8,6 +8,7 @@ A collection of JavaScript mini projects built while improving my frontend devel
 - Counter App
 - Digital Clock
 - Stopwatch
+- Rock Paper Scissors Game
 
 ### Intermediate
 
