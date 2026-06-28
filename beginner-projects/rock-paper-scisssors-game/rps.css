@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background: #0b1020;
+  /* deep dark blue */
+  --container: #151b2e;
+  /* dark slate */
+  --cards: #1e293b;
+  /* slate */
+  --headingH1:#a78bfa;
+  /* lavender */
+  --scoreboardHead:#38bdf8;
+  /* cyan */
+  --computerHead:#f59e0b;
+  /* orange */
+  --playerHead:#22c55e;
+  /* emerald green */
+  --mainText: #f8fafc;
+  /* white */
+  --mutedText: #94a3b8;
+  /* gray */
+  --primaryAccent: #8b5cf6;
+  /* purple */
+  --buttonHover: #a78bfa;
+  /* light purple */
+  --border: #334155;
+  /* dark border */
+  --roundCount:#94a3b8;  
+  /* soft gray */
+}
+
+body {
+  background-color: var(--background);
+  color: var(--mainText);
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  margin: 8vh auto auto auto;
+  padding: 15px 25px 25px;
+  width: max(40vw, 511px);
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background-color: var(--container);
+  text-align: center;
+}
+
+.container h1 {
+  padding: 0 0 20px 0;
+  color: var(--headingH1);
+}
+
+.scoreboard {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 10px 0 15px 0;
+  width: 60%;
+  margin: auto;
+  background-color: var(--cards);
+}
+
+.scoreboard>span {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--scoreboardHead);
+}
+
+.round {
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+.userScore {
+  margin-right: 50px;
+  color: var(--playerHead);
+}
+
+.botScore {
+  margin-right: -40px;
+  color: var(--computerHead);
+}
+
+.choiceBox{
+  background-color: var(--cards);
+  border: 1px solid var(--border);
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 10px;
+  width: max(80%,520px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.choiceBox button{
+  transition:0.2s ease;
+  background-color: var(--background);
+}
+
+.choiceBox button:hover{
+  transform:scale(1.1);
+  border: 1px solid;
+}
+
+.userChoice,.botChoice{
+  background-color: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin: 15px 0 15px 0;
+  height: 170px;
+  width: 230px;
+}
+
+.userChoice>p{
+  color: var(--playerHead);
+}
+.botChoice>p{
+  color: var(--computerHead);
+}
+
+.userChoice>p,.botChoice>p{
+  margin: 15px 0 30px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.choiceBox button{
+  width: 65px;
+  height: 75px;
+  cursor: pointer;
+  color: var(--mutedText);
+  border:none;
+  border-radius: 10px;
+}
+
+.choiceBox button p{
+  font-size: 2rem;
+}
+
+.rock,
+.paper,
+.scissors {
+  background-color: var(--cards);
+}
+
+.disable{
+  cursor: not-allowed !important;
+}
+
+.result{
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  margin: 10px auto;
+  width: 50%;
+  padding: 8px 15px;
+  text-align: left;
+  line-height: 25px;
+  background-color: var(--cards);
+}
+
+.history{
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background-color: var(--cards);
+  padding: 10px 0 10px 15px;
+  text-align: left;
+}
+
+.history>p{
+  text-align: center;
+  margin: 3px 0 15px 0;
+  color: var(--headingH1);
+  font-size: 1.2rem;
+}
+
+.historyRounds{
+  padding:2px 0;
+}
+
+.roundCount{
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--roundCount);
+}
+
+
+.finalResultShown{
+  border: 1px solid var(--border);
+  border-radius: 15px;
+  margin:5px 0 5px 0;
+  padding: 15px 0 17px 0;
+}
+
+.finalResultWinner{
+  font-size: 2rem;
+}
+
+.finalResultShown>h3{
+  margin-top: 22px;
+  margin-bottom: 3px;
+  color: var(--scoreboardHead);
+}
+
+.finalResultShown p:nth-child(4){
+  color: var(--playerHead);
+}
+.finalResultShown p:nth-child(5){
+  color: var(--computerHead);
+}
+
+.restartGame{
+  padding: 8px 13px;
+  border-radius: 3px;
+  margin-top: 18px;
+  background-color: var(--primaryAccent);
+  color: var(--mainText);
+  font-size: 1.03rem;
+  border:none;
+  cursor: pointer;
+}
+
+.restartGame:hover{
+  background-color:var(--buttonHover);
+}
+
+.hide {
+  display: none;
+}
