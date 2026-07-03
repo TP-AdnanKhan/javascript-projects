@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+  background-color: var(--background);
+}
+
+:root {
+  --background: #0b1020;
+  --card: #151b2e;
+  --input: #1f2937;
+  --boxShadow : #38bdf855;
+
+  --primary: #38bdf8;     /* cyan */
+  --success: #22c55e;     /* green */
+  --warning: #facc15;     /* yellow */
+  --danger: #ef4444;      /* red */
+  --invalid: #fb923c;
+
+  --text: #f8fafc;
+  --muted: #94a3b8;
+
+  --checkGuessText:#0b1020;
+  --checkGuesshvrBack:#0ea5e9;
+  --checkGuesshvrShadow:#38bdf8;
+
+  --resetBg:#a855f7;
+  --resethvrbg:#9333ea;
+  --resethvrShadow:#a855f7;
+
+  --attemptsText:#94a3b8;
+  --attemptsBg:#111827;
+  --attemptsBorder:#334155;
+
+  --attemptsSpan:#38bdf8;
+}
+
+.container{
+  margin: auto;
+  margin-top: 10vh;
+  background-color: var(--card);
+  color: var(--text);
+  width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px var(--boxShadow);
+  text-align: center;
+}
+
+.container h1{
+  margin: -5px 0 20px 0;
+  color: var(--primary);
+  cursor: default;
+}
+
+.container h2{
+  margin: 0 0 20px 0;
+  cursor: default;
+}
+
+#input{
+  background-color: var(--input);
+  width: 130px;
+  max-width: 80%;
+  height: 80px;
+  text-align: center;
+  color: var(--text);
+  font-size: 2.5rem;
+  font-family: "JetBrains Mono", monospace;
+  border: 2px solid #4798ba;
+  border-radius: 12px;
+  margin: 0 0 20px 0;
+  outline: none;
+}
+
+input[type="number"]:focus {
+  box-shadow: 0 0 20px #11baee55;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.checkGuess{
+  margin: 0 0 20px 0;
+  padding: 8px 12px;
+  font-size: 1.05rem; 
+  cursor: pointer;
+  background: var(--primary);
+  color: var(--checkGuessText);
+  border: none;
+  border-radius: 12px;
+}
+
+.checkGuess:hover{
+  background: var(--checkGuesshvrBack);
+  box-shadow: 0 0 15px var(--checkGuesshvrShadow);
+}
+
+.response{
+  margin:0 0 20px 0;
+  font-size: 1.8rem;
+  cursor: default;
+}
+
+.attempts{
+  margin: auto;
+  margin-bottom:20px;
+  font-size: 1.1rem;
+  border: 2px solid var(--attemptsBorder);
+  background-color: var(--attemptsBg);
+  color: var(--attemptsText);
+  padding: 12px 0;
+  width: 45%;
+  border-radius: 10px;
+  cursor:default;
+}
+
+.attemptsSpan{
+  color: var(--attemptsSpan);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.reset{
+  padding: 8px 14px;
+  font-size: 1.05rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--resetBg);
+  color: var(--text);
+}
+
+.reset:hover{
+  background-color: var(--resethvrbg);
+  box-shadow: 0 0 20px var(--resethvrShadow);
+}
+
+/* classes added through JS */
+
+.correct{
+  color: var(--success);
+}
+
+.tooLow{
+  color: var(--warning);
+}
+
+.tooHigh{
+  color: var(--danger);
+}
+
+.invalid{
+  color:var(--invalid)
+}
