@@ -1,0 +1,76 @@
+:root {
+  --background: #E6DFD3;
+  /*Light Sand*/
+  --container: #FFFDF9;
+  /*Warm Cream*/
+  --mainText: #3E2723;
+  /*Deep Espresso Dark Brown*/
+  --author: #8D6E63;
+  /*Soft Clay Brown*/
+  --btnBg: #d06924;
+  /*Burnt Terracotta Orange*/
+  --btnBgHvr: #b55414;
+  /* Orange*/
+  --btnText: #FFFFFF;
+  /*Burnt Terracotta Orange*/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'poppins';
+  background-color: var(--background);
+}
+
+h2 {
+  margin-top: 10vh;
+  text-align: center;
+  font-weight: 300;
+}
+
+.container {
+  height: auto;
+  width: max(40vw, 550px);
+  margin: 40px auto 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  background-color: var(--container);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.quote {
+  margin: 0 0 20px 0;
+  padding: 30px 20px 0 20px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--mainText);
+}
+
+.author {
+  margin: 0 0 20px 0;
+  padding: 0 20px 20px 20px;
+  letter-spacing: 3px;
+  font-size: 1.8rem;
+  color: var(--author);
+}
+
+.newQuote {
+  margin: 0 0 20px 0;
+  padding: 9px 15px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: var(--btnBg);
+  color: var(--btnText);
+  transition: all 0.4s ease;
+}
+
+.newQuote:hover {
+  background-color: var(--btnBgHvr);
+  font-size: 1rem;
+  transform: scale(1.001);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
