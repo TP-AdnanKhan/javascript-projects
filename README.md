@@ -12,7 +12,7 @@ A collection of JavaScript mini projects built while improving my frontend devel
 - Random Quote Generator
 
 ### Intermediate
-- Rock Paper Scissors Game(Best of 5)
+- Rock Paper Scissors Game (Best of 5 & State Tracking)
 
 ## 🛠️ Tech Used
 
