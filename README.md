@@ -9,9 +9,10 @@ A collection of JavaScript mini projects built while improving my frontend devel
 - Digital Clock
 - Stopwatch
 - Number Guessing Game
+- Random Quote Generator
 
 ### Intermediate
-- Rock Paper Scissors Game
+- Rock Paper Scissors Game(Best of 5)
 
 ## 🛠️ Tech Used
 
