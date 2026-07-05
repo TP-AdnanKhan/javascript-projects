@@ -1,4 +1,4 @@
-## 🚀 Joke Launcher
+## 🎭 Joke Launcher
 
 A fun, highly interactive web application that fetches random jokes from a public API based on user-selected categories.
 
