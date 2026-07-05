@@ -38,7 +38,4 @@ An intermediate-level implementation of the classic game, upgraded to track matc
 - JavaScript
 
 ---
-[⬅️ Back to Intermediate Folder](../)
-
-[⬅️ Back to Main Repo](../../)
-
+[⬅️ Back to Intermediate Projetcs](../)
