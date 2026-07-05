@@ -27,4 +27,4 @@ A real-time digital clock that displays the user's current local time.
 - JavaScript
 
 ---
-[⬅️ Back to Beginner Folder](../)
+[⬅️ Back to Beginner Projects](../)
