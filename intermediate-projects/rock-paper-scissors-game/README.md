@@ -38,4 +38,4 @@ An intermediate-level implementation of the classic game, upgraded to track matc
 - JavaScript
 
 ---
-[⬅️ Back to Intermediate Projetcs](../)
+[⬅️ Back to Intermediate Projects](../)
