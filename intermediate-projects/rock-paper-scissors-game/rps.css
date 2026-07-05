@@ -39,7 +39,7 @@ body {
 }
 
 .container {
-  margin: 8vh auto auto auto;
+  margin: 6vh auto auto auto;
   padding: 15px 25px 25px;
   width: max(40vw, 511px);
   height: auto;
@@ -70,17 +70,16 @@ body {
 }
 
 .round {
-  margin: 10px;
+  margin: 10px 0 10px 0;
   font-size: 1.2rem;
 }
 
 .userScore {
-  margin-right: 50px;
+  margin-right: 60px;
   color: var(--playerHead);
 }
 
 .botScore {
-  margin-right: -40px;
   color: var(--computerHead);
 }
 
