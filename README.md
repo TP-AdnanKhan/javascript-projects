@@ -10,6 +10,7 @@ A collection of JavaScript mini projects built while improving my frontend devel
 - Stopwatch
 - Number Guessing Game
 - Random Quote Generator
+- Joke Launcher
 
 ### Intermediate
 - Rock Paper Scissors Game (Best of 5 & State Tracking)
