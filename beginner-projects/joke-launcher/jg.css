@@ -1,0 +1,123 @@
+:root{
+  --background:#0F172A;
+  --container:#1E293B;
+  --mainText:#F8FAFC;
+  --cateAndLoading:#94A3B8;
+  --borderClr:#475569;
+  --reveal:#94A3B8;
+  --newJoke:#6366F1;
+  --newJokeHvr:#4F46E5;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: var(--background);
+  color: var(--mainText);
+  font-family: "Poppins", sans-serif;
+}
+
+.container{
+  margin: auto;
+  margin-top: 10vh;
+  width: 550px;
+  background-color: var(--container);
+  text-align: center;
+  border-radius: 15px;
+}
+
+h1{
+  text-align: center;
+  padding: 10px 0 20px 0;
+}
+
+.filter{
+  border: 1px solid var(--borderClr);
+  padding: 6px 14px;
+  border-radius: 10px;
+  cursor:pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.filter:active{
+  background-color: #334155;
+}
+
+.filter:hover{
+  background:#475569;
+  box-shadow: 0 2px 25px rgba(0,0,0,0.8);
+}
+
+.joke{
+  margin: 20px 0;
+  font-size: 1.3rem;
+  padding: 20px 30px;
+}
+
+.punchlineBox{
+  margin: auto;
+  width: 80%;
+  height: auto;
+  min-height: 50px;
+  border: 1px solid var(--borderClr);
+  border-radius: 5px;
+  color: #CBD5E1;
+  background-color: #312E81;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.punchline{
+  color:#FFFFFF;
+  font-size:1.2rem;
+  font-weight:300;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.punchlineBox:hover{
+  transition: all 0.3s ease;
+  background-color:#4338CA;
+  transform:scale(1.1);
+  box-shadow: 0 2px 25px rgba(0,0,0,0.8);
+}
+
+.reveal{
+  color:#CBD5E1;
+  font-style:italic;
+}
+
+.reset{
+  background-color: var(--newJoke);
+  color: var(--mainText);
+  border: none;
+  border-radius: 5px;
+  padding:8px 16px;
+  margin: 20px 0;
+  box-shadow: 0 0 25px rgba(0,0,0,0.5);
+  transition: all 0.3s ease;
+}
+
+.reset:hover{
+  background-color: var(--newJokeHvr);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+  transform: scale(1.01);
+  font-size: 1rem;
+}
+
+
+.hide{
+  display:none;
+}
+.active{
+  background-color:#475569;
+  box-shadow: 0 2px 25px rgba(0,0,0,0.6);
+}
