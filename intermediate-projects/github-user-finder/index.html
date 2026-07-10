@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub User Finder</title>
+  <link rel="stylesheet" href="ghuf.css">
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1>GitHub User Finder</h1>
+      <button class="mode">Light ☀️</button>
+    </div>
+
+    <div class="searchbar">
+      <label for="search">
+        <span>🔍 </span>
+      </label>
+      <input type="text" name="search" id="search" placeholder="Enter GitHub Username...">
+      <button class="searchBtn">Search</button>
+    </div>
+
+    <div class="mainCard"> <!--this contains main info about user-->
+      <div class="profileIntro">
+        <img src="https://api.dicebear.com/10.x/identicon/svg?rowColor=23ae19&seed=Milo" alt="Profile Picture" id="profilePic">
+        <div class="nextToImage">
+          <p class="name">Name</p>
+          <p class="username">Username</p>
+        </div>
+        <p class="joiningDate">Joined 1 Jan 1970</p>
+      </div>
+
+      <p class="bio">This profile has no bio</p>
+
+      <div class="information">
+        <div class="repoDiv">
+          <p class="infoR">Repos</p>
+          <p class="infoRn">0</p>
+        </div>
+        
+        <div class="followerDiv">
+          <p class="infoF1">Followers</p>
+          <p class="infoF1n">0</p>
+        </div>
+        
+        <div class="followingDiv">
+          <p class="infoF2">Following</p>
+          <p class="infoF2n">0</p>
+        </div>
+      </div>
+
+      <div class="foot">
+        <div class="footInfoDiv">📍 <span class="location">Not Available</span></div>
+        <a class="footInfoA" href="https://github.com/TP-AdnanKhan" target="_blank">🔗 <span class="redirect">@username</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="notFound hide">
+    <h1>No Results!</h1>
+    <p>No GitHub profile matched "<span class="notFoundUsername"> </span>".</p>
+    <p>Try another username.</p>
+  </div>
+
+  <script src="ghuf.js"></script>
+</body>
+</html>
