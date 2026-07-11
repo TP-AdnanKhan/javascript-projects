@@ -8,9 +8,9 @@ A responsive web application that allows users to search for any GitHub profile 
 
 ## 📸 Preview
 
-#| Dark Mode |
+#Dark Mode 
  <img width="1168" height="911" alt="Screenshot 2026-07-11 141727" src="https://github.com/user-attachments/assets/6edfaddf-a8ba-4650-8db1-0538c51908fb" />
-#| Light Mode |
+#Light Mode
  <img width="1392" height="907" alt="Screenshot 2026-07-11 141714" src="https://github.com/user-attachments/assets/78d1f3d9-77e9-4e01-8397-2aed5e495342" />
 
 ---
