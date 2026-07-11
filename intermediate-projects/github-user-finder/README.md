@@ -8,9 +8,22 @@ A responsive web application that allows users to search for any GitHub profile 
 
 ## 📸 Preview
 
- <img width="550" height="500" alt="Screenshot 2026-07-11 141727" src="https://github.com/user-attachments/assets/6edfaddf-a8ba-4650-8db1-0538c51908fb" />
-
- <img width="550" height="500" alt="Screenshot 2026-07-11 141714" src="https://github.com/user-attachments/assets/78d1f3d9-77e9-4e01-8397-2aed5e495342" />
+<table align="center">
+  <tr>
+    <td align="center">
+      <strong>🌙 Dark Mode</strong><br><br>
+      <img src="https://github.com/user-attachments/assets/a1c0c357-c60b-4396-ac01-c19662a9fba6"
+           alt="Dark Mode"
+           width="420">
+    </td>
+    <td align="center">
+      <strong>☀️ Light Mode</strong><br><br>
+      <img src="https://github.com/user-attachments/assets/8ebf0d70-f3e5-4668-83af-28543c36db7d"
+           alt="Light Mode"
+           width="420">
+    </td>
+  </tr>
+</table>
 
 ---
 
