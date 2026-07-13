@@ -315,7 +315,7 @@ body{
 
   .notFound{
     width: 85vw;
-    margin: -490px 0 0 6px;
+    margin: 0px 0 0 6px;
     padding: 10px 0 10px 20px;
     font-size: 1.2rem;
   }
@@ -337,7 +337,7 @@ body{
   }
 
   .notFound{
-    margin: -460px 0 0 6px;
+    margin: 0px 0 0 6px;
   }
 }
 
@@ -362,7 +362,7 @@ body{
   }
 
   .notFound{
-    margin: -440px 0 0 6px;
+    margin: 0px 0 0 6px;
   }
 }
 
